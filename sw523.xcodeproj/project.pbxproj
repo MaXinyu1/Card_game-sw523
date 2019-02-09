@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B1F0A7C6220E327000C2DDF5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1F0A7C5220E327000C2DDF5 /* main.cpp */; };
+		B1F0A7CE220E32F400C2DDF5 /* cards.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1F0A7CC220E32F400C2DDF5 /* cards.cpp */; };
+		B1F0A7D1220E334500C2DDF5 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1F0A7CF220E334500C2DDF5 /* player.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		B1F0A7C2220E327000C2DDF5 /* sw523 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sw523; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F0A7C5220E327000C2DDF5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B1F0A7CC220E32F400C2DDF5 /* cards.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cards.cpp; sourceTree = "<group>"; };
+		B1F0A7CD220E32F400C2DDF5 /* cards.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cards.hpp; sourceTree = "<group>"; };
+		B1F0A7CF220E334500C2DDF5 /* player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		B1F0A7D0220E334500C2DDF5 /* player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = player.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				B1F0A7C5220E327000C2DDF5 /* main.cpp */,
+				B1F0A7D0220E334500C2DDF5 /* player.hpp */,
+				B1F0A7CD220E32F400C2DDF5 /* cards.hpp */,
+				B1F0A7CC220E32F400C2DDF5 /* cards.cpp */,
+				B1F0A7CF220E334500C2DDF5 /* player.cpp */,
 			);
 			path = sw523;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1F0A7C6220E327000C2DDF5 /* main.cpp in Sources */,
+				B1F0A7CE220E32F400C2DDF5 /* cards.cpp in Sources */,
+				B1F0A7D1220E334500C2DDF5 /* player.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
